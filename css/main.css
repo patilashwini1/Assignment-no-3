@@ -1,0 +1,172 @@
+﻿body {
+    margin: 0px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header li {
+    float: left;
+}
+
+    header li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        header li a:hover {
+            background-color: #111;
+        }
+
+.main-footer {
+    background-color: silver;
+    /*position: fixed;
+    bottom: 0;*/
+    width: 100%;
+    height: 100px;
+}
+
+.row {
+    width: 100%;
+    /*padding:0px;*/
+}
+
+.row {
+    width: 100%;
+    height: 400px;
+    /*margin-right: 10px;*/
+    float: left;
+}
+
+.child_div_2 {
+    float: right;
+    margin-right: 20px;
+
+}
+
+
+.child_div_1 {
+    float: left;
+    margin-right: 5px;
+    width: 50%;
+}
+
+.sitelinks {
+    /*display: block;
+   
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;*/
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+}
+
+    .sitelinks a {
+        padding: 10px;
+    }
+
+.socialmediaicons {
+    width: 20%;
+    height: 30px;
+    float: right;
+    padding:5px;
+}
+.twocols {
+    width: 47.8%;
+    height: 200;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    align-content: center;
+}
+.threecols {
+    width: 32.3%;
+    padding: 0px;
+    margin: 0px;
+    right:20px;
+    display: inline-block;
+
+    
+}
+.threecols {
+    width: 32.3%;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    align-content: center;
+    
+}
+.fourcols {
+    width: 24.7%;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    align-content: center;
+}
+
+.stepBlocks {
+    width: 50%;
+    height: 50%;
+    border-radius: 20%;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blockWrapper {
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    margin:10px;
+}
+.btn{
+    width:100px;
+    height:25px;
+    font-weight:bold;
+}
+.btn:hover{
+    background-color:burlywood;
+    text-align:center;
+    
+}
+.btn-default {
+    background-color:aliceblue;
+    
+    width: 150px;
+    height:35px;
+}
+.btn-orangered{
+    background-color:orangered;
+    color: white;
+   
+    width: 150px;
+    height:35px;
+    
+}
+.sitelinks
+{
+    color: white;
+
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    align-content:center;
+  }
